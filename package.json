@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/test.js"
+    "start": "node src/test.js",
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/VargaNorbert/2022-09-15/issues"
   },
-  "homepage": "https://github.com/VargaNorbert/2022-09-15#readme"
+  "homepage": "https://github.com/VargaNorbert/2022-09-15#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
 }
